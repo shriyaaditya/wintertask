@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+font-size: 20px;
+}
+.list{
+background-color: black;
+color: white;
+
+}
+li:hover{
+    background-color:rgb(1, 33, 63);
+    color: white;
+}
+li{
+  padding: 10px;
+}
+.list{
+    background-color: black;
+    width: 200px;
+    height: 50rem;
+    height: 180vh;
+}
+.text{
+  padding: 50px 0 0 0;
+}
+input {
+    width: 200vh;
+    margin: 20px;
+    padding: 10px;
+}
+header{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+  }
+.c {
+ text-align: center;
+ display: flex;
+ justify-content: space-between;
+}
+  .s {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  .c img{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    padding: 20px 20px;
+    float: right;
+} 
+  .searchTerm {
+    width: 90%;
+    border: 6px solid rgb(1, 33, 63);;
+    padding: 5px;
+    margin-right: 4px;
+    height: 20px;
+    outline: none;
+
+  }
+  .searchbutton{
+    background-color: white;
+    color: black;
+    border: 6px solid rgb(1, 33, 63);
+    margin-top: 5px;
+    margin-left: 0;
+    height: 55px;
+    width: 50px;
+    transition: transform 0.3s;
+  }
+  .searchbutton:hover{
+    transform: scale(1.2);
+    color: rgb(4, 77, 22);
+  }
+  .bg{
+    background-image: url(https://img.freepik.com/premium-photo/virtual-background-dark-room-with-chair-bookshelf_921151-33.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 190vh;
+    height: 180vh;
+    color: #fff;
+    opacity: 0.8;
+  }
+  .bgimg{
+    display: flex;
+  }
+  .bg h1{
+    padding: 5px;
+  }
+  .bg .button {
+    background-color: #fff;
+    margin: 40px 10px 44px 100px;
+    padding: 15px;
+    border: 5px solid  rgb(1, 33, 63);
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+.bg .button:hover{
+    background-color: rgb(1, 33, 63);
+    transform: scale(1.2);
+    color: white;
+    
+}
+.mod{
+  display: flex;
+  justify-content: space-between;
+}
+.filter{
+  background: linear-gradient(#3b2775,black);
+  padding: 15px;
+}
+ .sort{
+  background: linear-gradient(rgb(16, 151, 16),black);
+  padding: 15px;
+}
+.title{
+  background: linear-gradient(white,black);
+  padding: 15px;
+
+}
+.gallery {
+ display: grid;
+ grid-template-columns: 150px 150px 150px 150px 150px;
+gap: 20px;
+}
+.gallery img{
+  height: 200px;
+  width: 150px;
+  transition: transform 0.3s;
+}
+.gallery img:hover{
+  transform: scale(1.2);
+}
+ .abc{
+  background-color: black;
+  color: #fff;
+}
+.aa{
+  display: flex;
+  list-style: none;
+}
+.page2{
+  margin-top: 170px;
+}
+
